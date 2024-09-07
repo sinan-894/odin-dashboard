@@ -80,5 +80,10 @@ body,html{
     justify-self:end ;
 }
 
+.announcement>div{
+    padding:10px  0px;
+    border-bottom:1px solid  ;
+}
+
 
 
