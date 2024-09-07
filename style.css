@@ -60,7 +60,9 @@ body{
     width:3em;
     border-radius:100%;
 }
-
+.account{
+    padding-right: 20px;
+}
 .greetings img{
     width: 5em;
 }
