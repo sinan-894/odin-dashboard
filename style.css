@@ -1,5 +1,12 @@
+
+:root{
+    --heading-color:black;
+    --text-color:#636363;
+}
+
 body{
-    background-color: #e2e8f0
+    background-color: #e2e8f0;
+    font-family: 'Roboto',sans-serif,'Times New Roman', Times, serif;
 }
 
 .sidebar{
@@ -36,7 +43,7 @@ body{
 
 .header{
     background-color: white;
-    padding: 30px ;
+    padding: 15px 30px ;
 
 }
 
@@ -60,6 +67,7 @@ body{
 
 .large-name{
     font-size: 1.5em;
+    font-weight: 800;
 }
 
 .options button{
@@ -100,6 +108,11 @@ body{
 .project-heading{
     font-size:1.2em ;
     font-weight: 700;
+    color: var(--heading-color);
+}
+
+.project-text{
+    color: var(--text-color);
 }
 
 .announcement{
@@ -110,9 +123,11 @@ body{
 }
 .announcement-heading{
     font-weight: 700;
+    color: var(--heading-color);
 }
 .announcement-text{
     font-size: 0.8em;
+    color: var(--text-color);
     
 }
 
@@ -142,9 +157,11 @@ body{
 
 .account-trending{
     font-size: 0.8rem;
+    color: var(--heading-color);
 }
 .trending-text{
     padding-left: 20px;
     font-size: 0.9rem;
+    color: var(--text-color);
 }
 
