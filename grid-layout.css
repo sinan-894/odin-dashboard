@@ -34,6 +34,7 @@ body,html{
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 15px;
 
     
 
@@ -67,4 +68,17 @@ body,html{
 .trending{
     grid-column: 2/3;
 }
+
+.search,.account,.greetings,.options{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account{
+    gap: 20px;
+    justify-self:end ;
+}
+
+
 
